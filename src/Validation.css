@@ -1,0 +1,31 @@
+.container{
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+    padding: 1%;
+    color: Black;
+    background-color: rgb(23, 213, 197);
+    padding: auto;
+}
+.row{
+    color:black;
+    font-size: larger;
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+}

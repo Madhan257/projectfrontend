@@ -1,0 +1,47 @@
+.container{
+    margin-top: 80px;
+    margin-right:10%;
+    margin-left: 10%;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+    padding: 1%;
+    color: Black;
+    backdrop-filter: blur(15px);
+}
+.row{
+    color:black;
+    font-size: larger;
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+}
+
+.q{
+    background-image: url("https://www.hdwallpapers.in/download/music_guitar_8_4k_hd_music-3840x2160.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height:100%;
+    width: 100%;
+}
+
+td{
+    color: rgb(47, 48, 51);
+}
+
